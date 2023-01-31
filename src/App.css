@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 10% 0;
+    text-align: center;
+}
+div{
+    display: block;
+}
+h4 {
+    color: #03036d;
+    font-size: 22px;
+    padding: 1%;
+}
+.card {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 1.95px 1.95px 2.6px rgb(0 0 0 / 15%);
+    margin: 4%;
+    padding: 6% 2%;
+    text-align: center;
+}
+.Count {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 1%;
+}
+.CountNumber {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 4%;
+}
+button {
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 3px 8px rgb(0 0 0 / 24%);
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 4%;
+    padding: 6px 12px;
+}
+button, button:hover {
+    transition-duration: .6s;
+}
+.increment {
+    background-color: green;
+}
+.decrement {
+background-color: red;
+}
+.clear{
+    background-color: blue;
+}
+.credit{
+    padding: 8% 0;
+}
